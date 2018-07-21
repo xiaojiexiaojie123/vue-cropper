@@ -7,11 +7,11 @@
 #### [Vue 过渡实现轮播图](https://segmentfault.com/a/1190000008828755)  作者： koucxz
  
 ## 使用方法
-##### install dependencies
-##### npm install
+#### install dependencies
+#### npm install
 
-##### serve with hot reload at localhost:8080
-##### npm run dev
+#### serve with hot reload at localhost:8080
+#### npm run dev
 
 ## 裁剪框，根据需要，可以在里面设置需要的属性
 ``` html
@@ -164,4 +164,5 @@ this.$refs.cropper.getCropBlob((data) => {
   console.log(data)  
 })
 ```
+
 

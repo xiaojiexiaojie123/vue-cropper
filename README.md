@@ -1,26 +1,21 @@
 ## vue-cropper
 ### 一个在线图片裁剪预览和实时轮播的功能
 
-#####适用于头像上传、制作轮播图
+#### 适用于头像上传、制作轮播图
  
  ### vue-cropper 相关文章参考。
  #### [一个优雅的图片裁剪插件](https://github.com/xyxiao001/vue-cropper)   作者： xyxiao001
  #### [Vue 过渡实现轮播图](https://segmentfault.com/a/1190000008828755)  作者： koucxz
  
 ## 使用方法
-# install dependencies
+##### install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+##### serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-#### 裁剪框，根据需要，可以在里面设置需要的属性
+## 裁剪框，根据需要，可以在里面设置需要的属性
 ``` html
 <vueCropper
   ref="cropper"
@@ -30,7 +25,7 @@ npm run build --report
 ></vueCropper>
 ```
 
-#### 属性列表
+## 属性列表
 <table style="text-align: center">
   <thead>
     <tr>
@@ -134,7 +129,7 @@ npm run build --report
   </tbody>
 </table>
 
-#### 通过添加预览函数，可以实时看到裁剪情况
+## 通过添加预览函数，可以实时看到裁剪情况
 ``` html
 @realTime="realTime"
 // Real time preview function
@@ -149,7 +144,7 @@ realTime (data) {
 </div>
 ```
 
-#### 内置方法  通过this.$refs.cropper 调用
+## 内置方法  通过this.$refs.cropper 调用
 ##### this.$refs.cropper.startCrop()  开始截图
 ##### this.$refs.cropper.stopCrop()  停止截图
 ##### this.$refs.cropper.clearCrop()  清除截图
@@ -171,3 +166,4 @@ this.$refs.cropper.getCropBlob((data) => {
   console.log(data)  
 })
 ```
+

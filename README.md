@@ -1,19 +1,17 @@
 ## vue-cropper
-### 一个在线图片裁剪预览和实时轮播的功能
-
+#### 一个在线图片裁剪预览和实时轮播的功能
 #### 适用于头像上传、制作轮播图
  
- ### vue-cropper 相关文章参考。
- #### [一个优雅的图片裁剪插件](https://github.com/xyxiao001/vue-cropper)   作者： xyxiao001
- #### [Vue 过渡实现轮播图](https://segmentfault.com/a/1190000008828755)  作者： koucxz
+## vue-cropper 相关文章参考。
+#### [一个优雅的图片裁剪插件](https://github.com/xyxiao001/vue-cropper)   作者： xyxiao001
+#### [Vue 过渡实现轮播图](https://segmentfault.com/a/1190000008828755)  作者： koucxz
  
 ## 使用方法
 ##### install dependencies
-npm install
+##### npm install
 
 ##### serve with hot reload at localhost:8080
-npm run dev
-
+##### npm run dev
 
 ## 裁剪框，根据需要，可以在里面设置需要的属性
 ``` html
